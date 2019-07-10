@@ -29,6 +29,11 @@
                 showValidate(input[i]);
                 check=false;
             }
+            else
+            {
+              window.open('www.kicker.de')
+
+            }
         }
 
         return check;
