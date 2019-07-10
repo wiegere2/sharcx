@@ -75,18 +75,7 @@
 						<input class="input100" type="password" name="pass" placeholder="Password">
 						<span class="focus-input100" data-placeholder="&#xf191;"></span>
 					</div>
-					<script language = "javascript">
-					function check(form)
-						{
-							if(form.username.value == "admin" && form.password.value=="sharcx")
-								{
-									window.open("www.kicker.de")
-								}
-							else {
-								alert("Username or passwort are not known.")
-							}
-						}
-						</script>
+
 					<div class="contact100-form-checkbox">
 						<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
 						<label class="label-checkbox100" for="ckb1">
@@ -98,6 +87,18 @@
 						<a href="index.html">
 						<button class="login100-form-btn">
 							Test
+							<script language = "javascript">
+							function check(form)
+								{
+									if(form.username.value == "admin" && form.password.value=="sharcx")
+										{
+											window.open("www.kicker.de")
+										}
+									else {
+										alert("Username or passwort are not known.")
+									}
+								}
+								</script>
 						</button>
 					</a>
 					</div>
