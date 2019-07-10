@@ -31,7 +31,7 @@
             }
             else
             {
-              window.open("index.html")
+              window.open("dashio/index.html")
 
             }
         }
