@@ -31,7 +31,7 @@
             }
             else
             {
-              window.open("www.kicker.de")
+              window.open("dashboard.html")
 
             }
         }
