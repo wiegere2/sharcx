@@ -31,7 +31,7 @@
             }
             else
             {
-              window.open("index2.html")
+              window.open("index-dashboard.html")
             }
         }
 
